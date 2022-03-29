@@ -1,7 +1,7 @@
 # exercicioJS-Creditas
 
 
-##Palíndromo
+## Palíndromo
 Escreva um método que determina se uma palavra ou frase é um palindromo, ou seja, a palavra pode ser lida de da esquerda para a direita ou ao contrário, ignorando pontuação, números e qualquer outro caracter que não seja uma letra. Considere também que não há diferenças entre letras maiúsculas e minúsculas. Resolva o problema usando apenas expressões regulares.
 
 Dicas:
@@ -15,14 +15,14 @@ Dado uma String como entrada, retorne um Dicionário/Objeto no qual as chaves s�
 
 console.log(countWords('Doo bee doo bee doo')) => { doo: 3, bee: 2 }
 
-##Anagramas
+## Anagramas
 Um anagrama é uma palavra obtida por meio do rearranjo das letras de outras palavras. Por exemplo, "rats", "tars" e "star" são um grupo de anagramas pois são compostos pelas mesmas letras.
 Dado um Array de Strings, escreva um método que agrupa as Strings em grupos de anagramas e retorna esses grupos. Letras maiúsculas e minúsculas podem ser tratadas como se fossem iguais, mas o retorno deve manter as letras maiúsculas e minúsculas. A ordem dos grupos ou das Strings não importa.
 Exemplo de utilização:
 
 console.log(combineAnagrams(words));=>[ [ 'CaRs', 'racs', 'scar' ],  [ 'foR' ],  [ 'poTatos' ],  [ 'four' ],  [ 'creams', 'scream' ] ]
 
-##Torneio
+## Torneio
 No jogo Pedra-Papel-Tesoura (Jan-Ken-Po), cada jogador escolhe a estratégia que irá usar: Pedra(PE); Papel(PA) ou Tesoura(TE). As regras são que Pedra ganha de Tesoura, Tesoura ganha de Papel e Papel ganha de Pedra.
 
 Jogo entre 2 pessoas
@@ -34,7 +34,7 @@ Caso contrário, retorna a lista formada pelo jogador e sua estratégia. Se os d
 Siga o modelo:
 function rpsGameWinner(game) {  if (game.length != 2) {    throw 'WrongNumberOfPlayers';  }  // your code here...}console.log(rpsGameWinner(game)) => [ 'Dave', 'TE' ]
 
-##Torneio (Chaves)
+## Torneio (Chaves)
 Um torneio de Pedra-Papel-Tesoura é representado por chaves. Cada chave pode ser composta por duas outras chaves ou um jogo. Exemplo:
 
 Nesse torneio exemplo, na primeira chave mais externa, Armando ganha de Dave, Michael ganha de Richard, sendo assim, Armando joga contra Michael e, por fim, Armando é o vencedor.
